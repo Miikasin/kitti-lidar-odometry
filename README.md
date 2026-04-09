@@ -4,13 +4,14 @@
 ![Language](https://img.shields.io/badge/Language-Python_|_C++-success)
 ![Library](https://img.shields.io/badge/Library-Open3D-orange)
 
-A highly optimized, pure frame-to-frame LiDAR odometry pipeline utilizing Point-to-Plane Iterative Closest Point (ICP) and a predictive Constant Velocity motion model. Evaluated on the KITTI Odometry Benchmark (Sequence 00).
+A highly optimized, pure frame-to-frame LiDAR odometry pipeline utilizing Point-to-Plane Iterative Closest Point (ICP) and a predictive Constant Velocity motion model. Evaluated on the KITTI Odometry Benchmark sequences 00-10.
 
 ## Key Results
 This system was specifically optimized for high-speed urban driving environments. By mitigating the classic "high-speed ICP divergence" problem, the pure frame-to-frame architecture achieved highly competitive results without the use of a SLAM backend, loop closure, or IMU sensor fusion.
 
 * **Translation Error:** `1.30 %`
 * **Rotation Error:** `0.0057 deg/m`
+<img width="900" height="900" alt="07" src="https://github.com/user-attachments/assets/b4891a15-25da-4db7-9728-41a5f89b0b5b" />
 
 
 ## Methodology & Pipeline
