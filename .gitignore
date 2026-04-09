@@ -1,0 +1,9 @@
+dataset/
+data/
+
+eval_odometry
+eval_odometry.exe
+*.o
+
+__pycache__/
+*.pyc
