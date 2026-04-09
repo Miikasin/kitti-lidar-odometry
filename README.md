@@ -11,8 +11,9 @@ This system was specifically optimized for high-speed urban driving environments
 
 * **Translation Error:** `1.30 %`
 * **Rotation Error:** `0.0057 deg/m`
-<img width="900" height="900" alt="07" src="https://github.com/user-attachments/assets/b4891a15-25da-4db7-9728-41a5f89b0b5b" />
 
+<img width="500" height="250" alt="avg_rl" src="https://github.com/user-attachments/assets/4d216516-3582-4c3d-bdf2-8b25676d8323" />
+<img width="500" height="250" alt="avg_tl" src="https://github.com/user-attachments/assets/5c067ac0-bf90-4ba1-910b-6aea4319f798" />
 
 ## Methodology & Pipeline
 The core tracker is written in Python using `Open3D` and follows a strict sequential pipeline:
